@@ -57,28 +57,26 @@ GTC-Hand-Gesture-Recognition/
 1- Fork and Clone repo
  - `git clone https://github.com/24-mohamedyehia/GTC-Hand-Gesture-Recognition`
 
-2- 📦 Install Python Using Miniconda
- - Download and install MiniConda from [here](https://www.anaconda.com/docs/getting-started/miniconda/main#quick-command-line-install)
-
-3- Create a new environment using the following command:
+2- Create a new environment using the following command:
 ```bash
 conda create --name Hand-Gesture-Recognition python=3.11 -y
 ```
 
-4- Activate the environment:
+3- Activate the environment:
 ```bash
 conda activate Hand-Gesture-Recognition
 ```
 
-5- Install the required packages
+4- Install the required packages
 ```bash
 pip install -r requirements.txt
 ```
 
-6- Setup the environment variables
+5- Run the Web App
 ```bash
-cp .env.example .env
+python deployment/app.py
 ```
+
 ## Demo Video
 - Watch a sample demo locally: [Hand_Gesture_recognition.mp4](https://github.com/24-mohamedyehia/GTC-Hand-Gesture-Recognition/raw/refs/heads/main/public/Hand_Gesture_recognition.mp4)
 - Tip: GitHub may not stream MP4 in-browser. If playback fails, download the file or convert to MP4 for embedding.
